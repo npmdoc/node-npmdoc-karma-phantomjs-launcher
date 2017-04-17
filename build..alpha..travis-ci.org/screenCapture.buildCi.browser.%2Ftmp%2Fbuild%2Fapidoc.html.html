@@ -1,4 +1,4 @@
-<div class="apidocDiv">
+<html><head></head><body><div class="apidocDiv">
 <style>
 /*csslint
 */
@@ -47,17 +47,10 @@
 }
 </style>
 <h1>api documentation for
-    <a
-
-        href="https://github.com/karma-runner/karma-phantomjs-launcher#readme"
-
-    >karma-phantomjs-launcher (v1.0.4)</a>
+    <a href="https://github.com/karma-runner/karma-phantomjs-launcher#readme">karma-phantomjs-launcher (v1.0.4)</a>
 </h1>
 <h4>A Karma plugin. Launcher for PhantomJS.</h4>
-<div class="apidocSectionDiv"><a
-    href="#apidoc.tableOfContents"
-    id="apidoc.tableOfContents"
-><h1>table of contents</h1></a><ol>
+<div class="apidocSectionDiv"><a href="#apidoc.tableOfContents" id="apidoc.tableOfContents"><h1>table of contents</h1></a><ol>
 
     <li class="apidocModuleLi"><a href="#apidoc.module.karma-phantomjs-launcher">module karma-phantomjs-launcher</a><ol>
 
@@ -122,41 +115,41 @@
     <ul>
     <li>description and source-code<pre class="apidocCodePre">gruntfile = function (grunt) {
   grunt.initConfig({
-    pkgFile: &#x27;package.json&#x27;,
-    &#x27;npm-contributors&#x27;: {
+    pkgFile: 'package.json',
+    'npm-contributors': {
       options: {
-        commitMessage: &#x27;chore: update contributors&#x27;
+        commitMessage: 'chore: update contributors'
       }
     },
     bump: {
       options: {
         commitFiles: [
-          &#x27;package.json&#x27;,
-          &#x27;CHANGELOG.md&#x27;
+          'package.json',
+          'CHANGELOG.md'
         ],
-        commitMessage: &#x27;chore: release v%VERSION%&#x27;,
-        pushTo: &#x27;upstream&#x27;
+        commitMessage: 'chore: release v%VERSION%',
+        pushTo: 'upstream'
       }
     },
-    &#x27;auto-release&#x27;: {
+    'auto-release': {
       options: {
         checkTravisBuild: false
       }
     },
     eslint: {
-      target: [&#x27;index.js&#x27;, &#x27;gruntfile.js&#x27;, &#x27;karma.conf.js&#x27;, &#x27;test/*.js&#x27;]
+      target: ['index.js', 'gruntfile.js', 'karma.conf.js', 'test/*.js']
     },
     karma: {
       all: {
-        configFile: &#x27;karma.conf.js&#x27;
+        configFile: 'karma.conf.js'
       }
     }
   })
-  require(&#x27;load-grunt-tasks&#x27;)(grunt)
-  grunt.registerTask(&#x27;test&#x27;, [&#x27;karma&#x27;])
-  grunt.registerTask(&#x27;default&#x27;, [&#x27;eslint&#x27;, &#x27;test&#x27;])
-  return grunt.registerTask(&#x27;release&#x27;, &#x27;Bump the version and publish to NPM.&#x27;, function (type) {
-    return grunt.task.run([&#x27;npm-contributors&#x27;, &#x27;bump-only:&#x27; + (type || &#x27;patch&#x27;), &#x27;changelog&#x27;, &#x27;bump-commit&#x27;, &#x27;npm-publish&#x27;])
+  require('load-grunt-tasks')(grunt)
+  grunt.registerTask('test', ['karma'])
+  grunt.registerTask('default', ['eslint', 'test'])
+  return grunt.registerTask('release', 'Bump the version and publish to NPM.', function (type) {
+    return grunt.task.run(['npm-contributors', 'bump-only:' + (type || 'patch'), 'changelog', 'bump-commit', 'npm-publish'])
   })
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
@@ -174,15 +167,15 @@
     <li>description and source-code<pre class="apidocCodePre">karma_conf = function (config) {
   config.set({
     // base path that will be used to resolve all patterns (eg. files, exclude)
-    basePath: &#x27;&#x27;,
+    basePath: '',
 
     // frameworks to use
     // available frameworks: https://npmjs.org/browse/keyword/karma-adapter
-    frameworks: [&#x27;jasmine&#x27;],
+    frameworks: ['jasmine'],
 
     // list of files / patterns to load in the browser
     files: [
-      &#x27;test/*.spec.js&#x27;
+      'test/*.spec.js'
     ],
 
     // list of files to exclude
@@ -194,9 +187,9 @@
     },
 
     // test results reporter to use
-    // possible values: &#x27;dots&#x27;, &#x27;progress&#x27;
+    // possible values: 'dots', 'progress'
     // available reporters: https://npmjs.org/browse/keyword/karma-reporter
-    reporters: [&#x27;progress&#x27;],
+    reporters: ['progress'],
 
     // web server port
     port: 9876,
@@ -213,22 +206,22 @@
 
     // start these browsers
     // available browser launchers: https://npmjs.org/browse/keyword/karma-launcher
-    browsers: [&#x27;PhantomJS&#x27;, &#x27;PhantomJS_flags&#x27;],
+    browsers: ['PhantomJS', 'PhantomJS_flags'],
 
     // Continuous Integration mode
     // if true, Karma captures browsers, runs the tests and exits
     singleRun: true,
 
     customLaunchers: {
-      &#x27;PhantomJS_flags&#x27;: {
-        base: &#x27;PhantomJS&#x27;,
-        flags: [&#x27;--load-images=false&#x27;]
+      'PhantomJS_flags': {
+        base: 'PhantomJS',
+        flags: ['--load-images=false']
       }
     },
 
     plugins: [
-      require(&#x27;karma-jasmine&#x27;),
-      require(&#x27;./index&#x27;)
+      require('karma-jasmine'),
+      require('./index')
     ]
   })
 }</pre></li>
@@ -251,41 +244,41 @@
     <ul>
     <li>description and source-code<pre class="apidocCodePre">gruntfile = function (grunt) {
   grunt.initConfig({
-    pkgFile: &#x27;package.json&#x27;,
-    &#x27;npm-contributors&#x27;: {
+    pkgFile: 'package.json',
+    'npm-contributors': {
       options: {
-        commitMessage: &#x27;chore: update contributors&#x27;
+        commitMessage: 'chore: update contributors'
       }
     },
     bump: {
       options: {
         commitFiles: [
-          &#x27;package.json&#x27;,
-          &#x27;CHANGELOG.md&#x27;
+          'package.json',
+          'CHANGELOG.md'
         ],
-        commitMessage: &#x27;chore: release v%VERSION%&#x27;,
-        pushTo: &#x27;upstream&#x27;
+        commitMessage: 'chore: release v%VERSION%',
+        pushTo: 'upstream'
       }
     },
-    &#x27;auto-release&#x27;: {
+    'auto-release': {
       options: {
         checkTravisBuild: false
       }
     },
     eslint: {
-      target: [&#x27;index.js&#x27;, &#x27;gruntfile.js&#x27;, &#x27;karma.conf.js&#x27;, &#x27;test/*.js&#x27;]
+      target: ['index.js', 'gruntfile.js', 'karma.conf.js', 'test/*.js']
     },
     karma: {
       all: {
-        configFile: &#x27;karma.conf.js&#x27;
+        configFile: 'karma.conf.js'
       }
     }
   })
-  require(&#x27;load-grunt-tasks&#x27;)(grunt)
-  grunt.registerTask(&#x27;test&#x27;, [&#x27;karma&#x27;])
-  grunt.registerTask(&#x27;default&#x27;, [&#x27;eslint&#x27;, &#x27;test&#x27;])
-  return grunt.registerTask(&#x27;release&#x27;, &#x27;Bump the version and publish to NPM.&#x27;, function (type) {
-    return grunt.task.run([&#x27;npm-contributors&#x27;, &#x27;bump-only:&#x27; + (type || &#x27;patch&#x27;), &#x27;changelog&#x27;, &#x27;bump-commit&#x27;, &#x27;npm-publish&#x27;])
+  require('load-grunt-tasks')(grunt)
+  grunt.registerTask('test', ['karma'])
+  grunt.registerTask('default', ['eslint', 'test'])
+  return grunt.registerTask('release', 'Bump the version and publish to NPM.', function (type) {
+    return grunt.task.run(['npm-contributors', 'bump-only:' + (type || 'patch'), 'changelog', 'bump-commit', 'npm-publish'])
   })
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
@@ -308,15 +301,15 @@
     <li>description and source-code<pre class="apidocCodePre">karma_conf = function (config) {
   config.set({
     // base path that will be used to resolve all patterns (eg. files, exclude)
-    basePath: &#x27;&#x27;,
+    basePath: '',
 
     // frameworks to use
     // available frameworks: https://npmjs.org/browse/keyword/karma-adapter
-    frameworks: [&#x27;jasmine&#x27;],
+    frameworks: ['jasmine'],
 
     // list of files / patterns to load in the browser
     files: [
-      &#x27;test/*.spec.js&#x27;
+      'test/*.spec.js'
     ],
 
     // list of files to exclude
@@ -328,9 +321,9 @@
     },
 
     // test results reporter to use
-    // possible values: &#x27;dots&#x27;, &#x27;progress&#x27;
+    // possible values: 'dots', 'progress'
     // available reporters: https://npmjs.org/browse/keyword/karma-reporter
-    reporters: [&#x27;progress&#x27;],
+    reporters: ['progress'],
 
     // web server port
     port: 9876,
@@ -347,22 +340,22 @@
 
     // start these browsers
     // available browser launchers: https://npmjs.org/browse/keyword/karma-launcher
-    browsers: [&#x27;PhantomJS&#x27;, &#x27;PhantomJS_flags&#x27;],
+    browsers: ['PhantomJS', 'PhantomJS_flags'],
 
     // Continuous Integration mode
     // if true, Karma captures browsers, runs the tests and exits
     singleRun: true,
 
     customLaunchers: {
-      &#x27;PhantomJS_flags&#x27;: {
-        base: &#x27;PhantomJS&#x27;,
-        flags: [&#x27;--load-images=false&#x27;]
+      'PhantomJS_flags': {
+        base: 'PhantomJS',
+        flags: ['--load-images=false']
       }
     },
 
     plugins: [
-      require(&#x27;karma-jasmine&#x27;),
-      require(&#x27;./index&#x27;)
+      require('karma-jasmine'),
+      require('./index')
     ]
   })
 }</pre></li>
@@ -378,3 +371,4 @@
     ]
 </div>
 </div>
+</body></html>
