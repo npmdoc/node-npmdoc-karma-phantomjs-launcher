@@ -1,9 +1,11 @@
 # api documentation for  [karma-phantomjs-launcher (v1.0.4)](https://github.com/karma-runner/karma-phantomjs-launcher#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-karma-phantomjs-launcher.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-karma-phantomjs-launcher) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-karma-phantomjs-launcher.svg)](https://travis-ci.org/npmdoc/node-npmdoc-karma-phantomjs-launcher)
 #### A Karma plugin. Launcher for PhantomJS.
 
-[![NPM](https://nodei.co/npm/karma-phantomjs-launcher.png?downloads=true)](https://www.npmjs.com/package/karma-phantomjs-launcher)
+[![NPM](https://nodei.co/npm/karma-phantomjs-launcher.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/karma-phantomjs-launcher)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-karma-phantomjs-launcher/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-karma-phantomjs-launcher_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-karma-phantomjs-launcher/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-karma-phantomjs-launcher/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-karma-phantomjs-launcher/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-karma-phantomjs-launcher/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-karma-phantomjs-launcher/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-karma-phantomjs-launcher/build/screenCapture.npmPackageListing.svg)
 
@@ -17,104 +19,80 @@
 
 {
     "author": {
-        "name": "Vojta Jina",
-        "email": "vojta.jina@gmail.com"
+        "name": "Vojta Jina"
     },
     "bugs": {
         "url": "https://github.com/karma-runner/karma-phantomjs-launcher/issues"
     },
     "contributors": [
         {
-            "name": "Vojta Jina",
-            "email": "vojta.jina@gmail.com"
+            "name": "Vojta Jina"
         },
         {
-            "name": "Friedel Ziegelmayer",
-            "email": "dignifiedquire@gmail.com"
+            "name": "Friedel Ziegelmayer"
         },
         {
-            "name": "Mark Ethan Trostler",
-            "email": "mark@zzo.com"
+            "name": "Mark Ethan Trostler"
         },
         {
-            "name": "Shinnosuke Watanabe",
-            "email": "snnskwtnb@gmail.com"
+            "name": "Shinnosuke Watanabe"
         },
         {
-            "name": "Jurko Gospodnetić",
-            "email": "jurko.gospodnetic@pke.hr"
+            "name": "Jurko Gospodnetić"
         },
         {
-            "name": "Friedel Ziegelmayer",
-            "email": "friedel.ziegelmayer@gmail.com"
+            "name": "Friedel Ziegelmayer"
         },
         {
-            "name": "Sylvain Hamel",
-            "email": "sylvainhamel0@gmail.com"
+            "name": "Sylvain Hamel"
         },
         {
-            "name": "Huafu Gandon",
-            "email": "huafu.gandon@gmail.com"
+            "name": "Huafu Gandon"
         },
         {
-            "name": "Dan Siwiec",
-            "email": "daniel.siwiec@gmail.com"
+            "name": "Dan Siwiec"
         },
         {
-            "name": "Rob Barreca",
-            "email": "rob.barreca@inmobi.com"
+            "name": "Rob Barreca"
         },
         {
-            "name": "Sergey Bondarenko",
-            "email": "enterit@gmail.com"
+            "name": "Sergey Bondarenko"
         },
         {
-            "name": "nherzing",
-            "email": "nherzing@gmail.com"
+            "name": "nherzing"
         },
         {
-            "name": "Chad Smith",
-            "email": "chad@configit.com"
+            "name": "Chad Smith"
         },
         {
-            "name": "sylvain-hamel",
-            "email": "sylvainhamel0@gmail.com"
+            "name": "sylvain-hamel"
         },
         {
-            "name": "Edward Hutchins",
-            "email": "eahutchins@gmail.com"
+            "name": "Edward Hutchins"
         },
         {
-            "name": "Eryk Napierała",
-            "email": "eryk.piast@gmail.com"
+            "name": "Eryk Napierała"
         },
         {
-            "name": "Jason Dobry",
-            "email": "jason.dobry@gmail.com"
+            "name": "Jason Dobry"
         },
         {
-            "name": "Joel Mukuthu",
-            "email": "jmu@one.com"
+            "name": "Joel Mukuthu"
         },
         {
-            "name": "Jonathan Park",
-            "email": "jpark@daptiv.com"
+            "name": "Jonathan Park"
         },
         {
-            "name": "Leigh Tarasenko",
-            "email": "leightarasenko@gmail.com"
+            "name": "Leigh Tarasenko"
         },
         {
-            "name": "Mark Derbecker",
-            "email": "mark.derbecker@seeq.com"
+            "name": "Mark Derbecker"
         },
         {
-            "name": "Mark Trostler",
-            "email": "mark@zzo.com"
+            "name": "Mark Trostler"
         },
         {
-            "name": "Nick Malaguti",
-            "email": "nmalaguti@palantir.com"
+            "name": "Nick Malaguti"
         }
     ],
     "dependencies": {
@@ -155,20 +133,16 @@
     "main": "index.js",
     "maintainers": [
         {
-            "name": "vojtajina",
-            "email": "vojta.jina+npm@gmail.com"
+            "name": "vojtajina"
         },
         {
-            "name": "zzo",
-            "email": "mark@zzo.com"
+            "name": "zzo"
         },
         {
-            "name": "dignifiedquire",
-            "email": "dignifiedquire@gmail.com"
+            "name": "dignifiedquire"
         },
         {
-            "name": "karmarunnerbot",
-            "email": "karmarunnerbot@gmail.com"
+            "name": "karmarunnerbot"
         }
     ],
     "name": "karma-phantomjs-launcher",
@@ -176,7 +150,6 @@
     "peerDependencies": {
         "karma": ">=0.9"
     },
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git://github.com/karma-runner/karma-phantomjs-launcher.git"
@@ -187,16 +160,6 @@
     "version": "1.0.4"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module karma-phantomjs-launcher](#apidoc.module.karma-phantomjs-launcher)
-
-
-
-# <a name="apidoc.module.karma-phantomjs-launcher"></a>[module karma-phantomjs-launcher](#apidoc.module.karma-phantomjs-launcher)
 
 
 
