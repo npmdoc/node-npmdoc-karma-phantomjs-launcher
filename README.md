@@ -1,4 +1,7 @@
-# api documentation for  [karma-phantomjs-launcher (v1.0.4)](https://github.com/karma-runner/karma-phantomjs-launcher#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-karma-phantomjs-launcher.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-karma-phantomjs-launcher) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-karma-phantomjs-launcher.svg)](https://travis-ci.org/npmdoc/node-npmdoc-karma-phantomjs-launcher)
+# npmdoc-karma-phantomjs-launcher
+
+#### basic api documentation for  [karma-phantomjs-launcher (v1.0.4)](https://github.com/karma-runner/karma-phantomjs-launcher#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-karma-phantomjs-launcher.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-karma-phantomjs-launcher) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-karma-phantomjs-launcher.svg)](https://travis-ci.org/npmdoc/node-npmdoc-karma-phantomjs-launcher)
+
 #### A Karma plugin. Launcher for PhantomJS.
 
 [![NPM](https://nodei.co/npm/karma-phantomjs-launcher.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/karma-phantomjs-launcher)
@@ -157,7 +160,8 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "version": "1.0.4"
+    "version": "1.0.4",
+    "bin": {}
 }
 ```
 
